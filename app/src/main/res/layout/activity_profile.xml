@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ProfileActivity">
+
+        <ImageView
+            android:id="@+id/imageClos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:clickable="true"
+            android:padding="@dimen/space_16dp"
+            android:layout_margin="4dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/img2"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/space_40dp"
+            android:scaleType="centerCrop"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#000000"/>
+
+        <TextView
+            android:text="First Name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circularstd_bold"
+            android:textSize="@dimen/text_size_xmedium"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Mohamed"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="@dimen/text_size_mediumx"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Last Name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circularstd_bold"
+            android:textSize="@dimen/text_size_xmedium"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Sahraoui"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="@dimen/text_size_mediumx"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Email"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circularstd_bold"
+            android:textSize="@dimen/text_size_xmedium"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="m.sahraoui@gmail.com"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="@dimen/text_size_mediumx"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Date"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circularstd_bold"
+            android:textSize="@dimen/text_size_xmedium"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="24-5-1994"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="@dimen/text_size_mediumx"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Club"
+            android:textColor="@color/black"
+            android:fontFamily="@font/circularstd_bold"
+            android:textSize="@dimen/text_size_xmedium"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Motard"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/circularstd_medium"
+            android:textSize="@dimen/text_size_mediumx"
+            android:layout_marginLeft="@dimen/space_20dp"
+            android:layout_marginRight="@dimen/space_20dp"
+            android:layout_marginBottom="@dimen/space_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
